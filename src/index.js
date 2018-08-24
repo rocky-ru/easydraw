@@ -5,5 +5,5 @@ import EasyDraw from './core/easyDraw'
 export default {
     canvasRenderer,
     defaultOption,
-    EasyDraw
+    EasyDraw,
 }
