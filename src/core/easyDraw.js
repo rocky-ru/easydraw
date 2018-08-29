@@ -1,6 +1,9 @@
 /**
  * Initialization the instance of EasyDraw
  */
+import C from './common'
+
+console.log(C)
 
 class EasyDraw {
 
