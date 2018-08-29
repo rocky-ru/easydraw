@@ -38,6 +38,18 @@ const lineEndCapShaped = {
 			ctx.lineTo(points[2].x, points[2].y);
 			ctx.fill();
 			ctx.draw(true)
+		},
+
+		svg(x, y, angle, width, color, length) {
+			var points;
+			if (length == null) {
+			  length = 0;
+			}
+			length = length || width;
+			points = getPoints(x, y, angle, width, length);
+			return "<polygon fill='" + color + "' stroke='none' points='" + (points.map(function(p) {
+			  return p.x + "," + p.y;
+			})) + "' />";
 		}
 	}
 }

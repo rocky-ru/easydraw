@@ -1,7 +1,9 @@
 import EM from './EventManager'
 
+const coreEm = new EM();
+
 const common = {
-    em: new EM()
+    em: coreEm
 }
 
 export default common

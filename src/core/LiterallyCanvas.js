@@ -1,11 +1,9 @@
 /**
- * Initialization the instance of EasyDraw
+ * Initialization the instance of LiterallyCanvas
  */
-import C from './common'
+import C from 'common'
 
-console.log(C)
-
-class EasyDraw {
+class LiterallyCanvas {
 
     constructor(){
         if(arguments.length!==2)return console.error('Parameter not valid');
@@ -63,4 +61,4 @@ class EasyDraw {
 
 }
 
-export default EasyDraw
+export default LiterallyCanvas
