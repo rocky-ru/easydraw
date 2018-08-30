@@ -3,6 +3,8 @@
  */
 import C from 'common'
 
+C.em.on('test',()=>console.log('test success'))
+
 class LiterallyCanvas {
 
     constructor(){

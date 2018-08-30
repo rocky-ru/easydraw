@@ -167,6 +167,7 @@ defineCanvasRenderer('Line', (ctx, shape) => {
     ctx.moveTo(x1, y1);
     ctx.lineTo(x2, y2);
     ctx.stroke();
+	console.log(111, ctx, shape)
     ctx.draw(true);
     if (shape.dash) {
         ctx.setLineDash([]);
